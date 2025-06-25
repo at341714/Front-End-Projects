@@ -1,0 +1,172 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:2rem;
+  
+}
+
+header h3{
+  font-size:1.5rem;
+  color:#00b289;
+
+
+  
+}
+
+nav ul {
+  list-style:none;
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.btn-primary{
+  font-size:1rem;
+  border:none;
+  background:#00b289;
+  color:white;
+  padding:0.75rem;
+  border-radius:12px;
+
+
+}
+
+.pricing-toggle{
+  margin-top:4rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+}
+
+
+.pricing-section{
+  display:grid;
+  grid-template-columns:repeat(3, minmax(260px,1fr));
+  margin-top:2rem;
+}
+
+.pricing-card{
+  text-align:center;
+  background:lightgrey;
+  margin:1rem;
+  box-shadow:1px 2px 12px black;
+  border-radius:12px;
+  border:none;
+
+}
+
+.pricing-card h3{
+  font-size:1.5rem;
+  font-weight:bold;
+  margin:1rem;
+
+}
+
+.pricing{
+  font-size:1.5rem;
+  margin-bottom:1rem;
+}
+
+.pricing-card ul{
+  list-style:none;
+}
+
+.pricing-card ul li {
+  padding:0.5rem;
+  font-weight:500;
+
+}
+
+
+.btn-secondary{
+  margin:1rem;
+  font-size:1rem;
+  border:none;
+  background:#00b289;
+  color:white;
+  padding:0.75rem;
+  border-radius:12px
+}
+
+.hidden{
+  display:none;
+}
+
+.features-section{
+  margin-top:4rem;
+}
+.features-section h3{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:1rem;
+}
+
+
+.feature-row {
+  display:grid;
+  
+  grid-template-columns:repeat(4, 1fr);
+  border-top:1px solid black;
+  
+  border-bottom:1px solid black;
+  text-align:center;
+  padding:0.5rem;
+  
+}
+
+.feature-row > div{
+  border-right:1px solid black;
+}
+
+
+.faq {
+  margin-top:2rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  margin-bottom:2rem;
+
+}
+
+.faq h3{
+  font-size:1.5rem;
+  font-weight:bold;
+  margin-bottom:1rem;
+}
+
+.faq-section{
+  max-width:700px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+
+}
+
+.faq-question{
+  
+  text-align:left;
+  font-size:1rem;
+  padding:0.5rem;
+  border:none;
+  border-radius:12px;
+  background-color:#f8db62;
+  cursor:pointer;
+  margin-bottom:0.5rem;
+
+
+}
+
+.faq-answer{
+  display:none;
+}
